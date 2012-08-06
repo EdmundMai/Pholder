@@ -1,0 +1,432 @@
+@import url(http://fonts.googleapis.com/css?family=Quando);
+
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url(../images/soft-grid.gif);
+}
+
+* {
+	margin: 0 0;
+	padding: 0 0;
+}
+
+.topbar {
+	text-align: right;
+	background:black;
+	min-width: 100%;
+	padding: 0px;
+	border-bottom: 1px solid white;
+	height: 30px;
+}
+
+/* 0px 0px 0px 0px */
+
+
+}
+
+.boxholder {
+	width: 1000px;
+}
+
+img[src*="facebook"] {
+	margin-top: -5px;
+	width:30px;
+}
+
+img[src*="twitter"] {
+	margin-bottom: 0px;
+	width: 28px;
+}
+
+.mediacontainer {
+	text-align: left;
+	float: left;
+}
+
+.navbar {
+	text-align: right;
+}
+
+.navbar a:link {
+	color: white;
+	text-decoration: none;
+	font: 20px "Myriad Pro", Arial, Sans-serif;
+	padding-right: 5px;
+	padding-top: 10px;
+}
+
+.navbar a:visited {
+	color: white;
+	text-decoration: none;
+	font: 20px "Myriad Pro", Arial, Sans-serif;
+	padding-right: 5px;
+	padding-top: 10px;
+}
+
+.navbar .socialmedia {
+	float: left;
+}
+
+.container {
+	text-align: center;
+	width: 960px;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto;
+
+}
+
+/* container margin 3rd value -1.2em*/
+
+.content {
+	border: 8px solid black;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	-webkit-box-shadow: 2px 2px 4px #888;
+	-moz-box-shadow: 2px 2px 4px #888;
+	box-shadow: 2px 2px 4px #888;
+	display: block;
+	margin: 20px auto;
+	width: 600px;
+	background: white;
+	padding-bottom: 20px;
+
+}
+
+/*#FFF3C1 background color*/
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	line-height: 0;
+	height: 0;
+	visibility: hidden;
+}
+
+
+.logo {
+	margin-bottom: 10px;
+}
+
+.create, .invite, .share {
+	font: 20px "Myriad Pro", Arial, Sans-serif;
+	padding: 10px;
+	background: rgb(255,243,193);
+	text-align: center;
+	position: relative;
+	width: 250px;
+	height: 200px;
+	display: block;
+	float: left;
+	/*margin: 20px 30px;*/
+	border: 8px solid black;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	-webkit-box-shadow: 2px 2px 4px #888;
+	-moz-box-shadow: 2px 2px 4px #888;
+	box-shadow: 2px 2px 4px #888;
+}
+
+.checkbox {
+	width: 100px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.telling {
+	width: 200px;
+	display: block;
+	margin: 0 auto;
+}
+
+.arrow1 {
+	float: left;
+	width: 3em;
+	position: relative;
+	top: 75px;
+}
+
+.invite .share {
+	margin-left: -1px;
+}
+
+
+.getstartedholder {
+	width: 300px;
+	display: block;
+	margin: 0 auto;
+}
+
+.getstarted {
+	margin: 30px 0;
+	width: 300px;
+	height: 100px;
+	background: -moz-linear-gradient(top, #FFCC00, #FFFF66);
+	border-radius: 10px;
+	font-size: 2em;
+}
+
+.cat {
+	width: 100px;
+	position: absolute;
+	right: 45px;
+	bottom: 45px;
+}
+
+.people {
+	width: 100px;
+	position: absolute;
+	right: 30px;
+	bottom: 20px;
+}
+
+.party {
+	width: 100px;
+	position: absolute;
+	right: 120px;
+	bottom: 10px;
+}
+
+footer {
+	background: black;
+	color: white;
+	padding-top: 10px;
+	border-top: 1px solid white;
+	height: 1.2em;
+}
+
+/*display: block;
+	margin: 0 auto;
+	width: 600px;
+	background: #FFF3C1;
+	padding-bottom: 20px;
+*/
+footer a {
+	font: "Myriad Pro", Arial, Sans-serif;
+	font-size: 14px;
+	color: white;
+	text-decoration: none;
+	margin: 2px;
+}
+
+.footerpane {
+	width: 600px;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.signup {
+	font-family: "Myriad Pro", Arial, Sans-serif;
+	text-align: left;
+	background: white;
+	padding: 15px;
+	border-radius: 10px;
+	line-height: 2em;
+	width: 400px;
+	display: block;
+	margin: 0 auto;
+}
+
+/*background color #CCC*/
+
+label {
+	display: block;
+}
+
+
+.longarrow {
+	width: 200px;
+	float: left;
+	margin: 20px;
+	position: relative;
+	left: 50px;
+	bottom: 85px;
+}
+
+.signupintro {
+	width: 400px;
+	margin: 10px auto 0px;
+}
+
+.submitbutton {
+	display: block;
+	margin: 20px auto 0px;
+	width: 200px;
+	height: 50px;
+	background: -moz-linear-gradient(top, #FFCC00, #FFFF66);
+	font-size: 2em;
+	border-radius: 10px;
+}
+
+.longarrow2 {
+	width: 300px;
+	/*float: right;*/
+	position: relative;
+	bottom: 120px;
+	left: 300px;
+}
+
+#smalllogo {
+	width: 150px;
+	
+}
+
+#smalllogo2 {
+	width: 150px;
+}
+
+.smalllogoholder {
+	text-align: center;
+	margin: 5px auto 0px;
+}
+
+.agreement {
+	padding-bottom: 5px;
+	text-align: left;
+}
+
+.agreement p ~ p {
+	margin-top: 15px;
+}
+
+.contract {
+	padding: 15px;
+	width: 900px;
+	font-size: 16;
+	background: #666;
+	height: 500px;
+	overflow: auto;
+}
+
+.bigcontainer {
+	background: rgb(229,238,242);
+	width: 960px;
+	border: 2px dashed black;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.jumpto {
+	width: 400px;
+	display: block;
+	margin-left: 40px;
+/*	margin: 0 auto 10px;*/
+	text-align: left;
+
+}
+
+.textarea {
+	width: 300px;
+}
+
+.jumpto a:link {
+}
+
+.loginwrapper {
+	min-height: 100%;
+	height: 500px;
+}
+
+.login {
+	height: 250px;
+	width: 300px;
+	background: white;
+	border: 8px solid black;
+	margin: 0 auto;
+	padding: 20px;
+	border-radius: 20px;
+	font-family: "Myriad Pro", Arial, Sans-serif;
+	padding-bottom: 5px;
+}
+
+.login label {
+	margin: 5px 0;
+}
+
+.aboutus {
+	width: 700px;
+	border: 8px solid black;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	-webkit-box-shadow: 2px 2px 4px #888;
+	-moz-box-shadow: 2px 2px 4px #888;
+	box-shadow: 2px 2px 4px #888;
+	text-align: left;
+	background: white;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+#signupholder {
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+.signupbutton {
+	width: 200px;
+	height: 50px;
+	background: -moz-linear-gradient(top, #FFCC00, #FFFF66);
+	font-size: 2em;
+	border-radius: 10px;
+}
+
+.aboutustext {
+	float: left;
+}
+
+.aboutuspics {
+	padding: 10px 10px;
+	float: right;
+	margin-top: 5px;
+}
+
+.oopsholder {
+	min-height: 100%;
+	height: 100%;
+	height: 500px;
+	width: 300px;
+	display: block;
+	margin: 0 auto;
+	
+}
+
+.oops {
+	height: 300px;
+	width: 300px;
+	background: white;
+	border: 8px solid black;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	-webkit-box-shadow: 2px 2px 4px #888;
+	-moz-box-shadow: 2px 2px 4px #888;
+	box-shadow: 2px 2px 4px #888;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+#email {
+	font-family: 'Quando', serif;
+}
+
+label + input {
+	color: green;
+}
+
+a:active {
+	color: red;
+}

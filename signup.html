@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pholder - Sign Up</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Sign up and receive unlimited storage space so that you and your friends can upload and download pictures through the web and on your phone with ease.">
+	<meta name="keywords" content="pictures, storage, distribution, download, easy, accessible, iphone, app, photos, share, private, party, travel, simple, sign up, login">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" type="icon" href="images/favicon.ico">
+</head>
+<body>
+	<div class="topbar">
+	</div>
+	
+
+	<nav class="navbar">
+		<div class="mediacontainer">
+			<a href="http://www.facebook.com/"><img src="images/facebook_icon.png"  class="facebook socialmedia" alt="facebook"></a>
+			<a href="http://www.twitter.com/"><img src="images/twitter.gif" class="twitter socialmedia" alt="twitter"></a>
+		</div>
+		<a href="index.html">Home</a> /
+		<a href="signup.html">Sign Up</a> / 
+		<a href="login.html">Log In</a>
+	</nav>
+
+
+	
+	<div class="container">
+		<div class="smalllogoholder">
+			<a href="index.html"><img src="images/smalllogo.png" id="smalllogo" alt="small pholder logo"></a>
+		</div>
+
+		<img src="images/longarrow.png" class="longarrow" alt="long arrow pointing to sign up form">
+
+		<div class="content clearfix">
+			<div class="signupintro">
+				<p><em>Have an account already? Log in </em><a href="login.html">here!</a></p>
+			</div>
+		
+			<br>
+
+			<div class="formholder">
+				<form id="signup" action="submit" method="post" class="signup">
+					<label for="firstname">First Name:</label>
+					<input type="text" id="firstname" name="firstname" placeholder="Enter your first name" class="textarea" required>
+					<label for="lastname">Last Name:</label> 
+					<input type="text" id="lastname" name="lastname" placeholder="Enter your last name" class="textarea" required> <br>
+					<label for="dob">Date of Birth:</label>
+					<span>
+						MM <input id="dob" name="element_1_1" class="element text" size="2" maxlength="2" value="" type="text"> /
+					</span>
+					<span>
+						DD <input id="element_1_2" name="element_1_2" class="element text" size="2" maxlength="2" value="" type="text"> /
+					</span>
+					<span>
+				 		YYYY <input id="element_1_3" name="element_1_3" class="element text" size="4" maxlength="4" value="" type="text">
+					</span> <br>
+					<!-- <select id="dob" name="dob">
+						<option value="january">January</option> -->
+					<label for="email">E-mail Address:</label> 
+					<input type="email" id="email" name="email" placeholder="Enter your e-mail address" class="textarea" required> <br>
+					<label for="username">Username:</label>
+					<input type="text" name="username" id="username" placeholder="Enter your desired username" class="textarea" required> <br>
+					<label for="password">Password:</label>
+					<input type="password" name="password" id="password" placeholder="Enter a password" class="textarea" required> <br>
+					<label for="confirmpassword">Confirm Password:</label>
+					<input type="password" name="confirmpassword" id="confirmpassword" placeholder="Please re-enter your password" class="textarea" required>
+
+					<br>
+
+					<input type="checkbox" id="readterms" name="readterms" required> I have read the <a href="terms.html">Terms of Service Agreement</a>
+
+
+
+					<input type="submit" value="Submit" class="submitbutton">
+
+				</form>
+			</div>
+		</div>
+
+		<div class="smalllogoholder">
+		<a href="index.html"><img src="images/smalllogo.png" id="smalllogo2" alt="small pholder logo"></a>
+		</div>
+
+	</div>
+
+	
+	
+	<footer>
+		<div class="footerpane">
+		<a href="aboutus.html">About Us</a> |
+		<a href="terms.html">Privacy Policy</a>
+		</div>
+	</footer>
+
+
+</body>
+</html>
